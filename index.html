@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>響應式網頁設計最終作業</title>
+	<link rel="stylesheet" href="css/css.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/all.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+		<h1>西餐廳</h1>
+		<ul class="menu">
+			<li><a href="index.html">首頁</a></li>
+			<li><a href="Cart.html">線上購買</a></li>
+			<li><a href="#">地圖</a></li>
+		</ul>
+		<a href="#" ><img src="images/bergur_03.png" class="showmenu"alt=""></a>
+		<div class="clearfix"></div>
+	</div>
+	<div class="banner">
+		<p><span>咬一口<br>就無法忘懷的漢堡</span><br><br>
+		七夕絕對無法錯過的<br>
+		   大漢堡</p>
+	</div>
+	<div class="content">
+
+		<h2>客人總是在問<br>
+		    這麼好吃的秘訣是什麼</h2>
+		    <ul>
+		    	<li><img src="images/feature_1.png"><br><br>
+		    		<p>
+		    			台灣本土蔬菜<br><br>
+		    			In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris.
+		    		</p></li>
+		    	<li><img src="images/feature_2.png"><br><br>
+		    		<p>
+		    			專業米其林大廚<br><br>
+		    			Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.
+		    		</p></li>
+		    	<li><img src="images/feature_3.png"><br><br>
+		    		<p>
+		    			對於專業不能退讓<br><br>
+		    			Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.
+		    	</p></li>
+		    </ul>
+		    <div class="clearfix"></div>
+	</div>
+	<div class="intro">
+		<img src="images/main_chef_brown.png" >
+		<h2>今日主廚：帕金森、梅在帕<br>
+		    Tody Chef: Plum in Shock</h2>
+	    <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum. Aliquam eget odio sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum. Donec congue lorem a molestie bibendum.</p>
+	    <div class="clearfix"></div>
+	</div>
+	<div class="comment">
+		<h2>聽聽別人的想法</h2>
+		<ul>
+			<li><img src="images/avatar_1.png">
+				<p>高雄一口<br><br>
+			       自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。<br><br>
+		        <p align="right">--產品經理</p></p>
+		    </li>
+			<li><img src="images/avatar_2.png"><p>少林活佛<br><br>
+			自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。<br><br>
+				<p align="right">--無敵金鐘罩</p></p></li>
+			<li><img src="images/avatar_3.png"><p>芷若妹妹<br><br>
+			自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。<br><br>
+				<p align="right">--九陰白骨爪</p></p></li>
+
+		</ul>
+		<div class="clearfix"></div>
+	</div>
+	<div class="booking">
+		<h2>我們幾乎每天都爆滿<br>
+		    先訂位吧！	</h2>
+		<img src="images/map.png">
+		<form class="form">
+			<div class="label">
+				<label for="name">姓名</label>
+				<br>
+				<input type="name" id="name" placeholder="請輸出姓名" class="info">
+				<br></div>
+
+			<div class="label">
+				<label for="number">電話</label>
+			    <br>
+		    	<input type="number" id="phone" placeholder="09XX-XXX-XXX" class="info">
+		    	<br></div>
+
+			<div class="label">
+				<label for="email">信箱</label>
+		        <br>
+		    	<input type="email" id="email" placeholder="請輸入信箱" class="info">
+		    	<br></div>
+
+		    <div class="label">
+		    	<label for="number">人數</label>
+		        <br>
+		        <input type="number" id="number" class="info">
+		        <br></div>
+
+		    <div class="label">
+		    	<label for="check">是否需要素食</label>
+		    	<br>
+		    	是<input type="radio" name="check" value="yes">
+		    	否<input type="radio" name="check" value="no"></div>
+
+		    <div class="button">
+		    <button class="btn btn-danger">取消</button>
+		    <button class="btn btn-primary">送出</button>
+		    </div>
+	    </form>
+	    <div class="clearfix"></div>
+	</div>
+	<div class="footer">
+		<ul>
+			<li>關於西餐廳<br><br>
+			Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. </li>
+			<li>聯絡方式<br><br>
+			• 桃園市走遍遍<br>
+		    • +886 998 988<br>
+		    • service@hexschool.com</li>
+		</ul>
+
+		<h3 align=right>西餐廳</h3><br>
+		<a href="#" width="50%" height="50%"><img src="images/logo_03.png"></a>	<div class="clearfix"></div>
+	</div>
+	</div>
+</body>
+</html>
