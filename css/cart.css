@@ -236,6 +236,14 @@ table {
 .content .sidemenu .pickmenu a{
   color: white;
 }
+@media (max-width:416px){
+  .content .sidemenu {
+    margin-bottom: 0px;
+  }
+  .content .sidemenu  li{
+    width: 90%;
+  }
+}
 .content .burger {
 }
 .content .burger li{
@@ -275,6 +283,12 @@ table {
   color: #FF5E45;
   margin-top: 20px;
   margin-left: 40%;
+}
+@media (max-width:416px){
+  .content .burger li{
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 .footer {
     background: #efe9e7;
