@@ -228,8 +228,8 @@ a.btn-selected {
         background: black;
     }
     .menu li{
-        float: right;
-        text-align: right;
+        float: left;
+        text-align: left;
     }
     .menu li a{
         transition: all 0.1s;
